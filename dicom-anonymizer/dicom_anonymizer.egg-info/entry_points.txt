@@ -1,0 +1,2 @@
+[console_scripts]
+dicom-anonymizer = dicomanonymizer.anonymizer:main

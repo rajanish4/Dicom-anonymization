@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dicom_anonymizer.egg-info/PKG-INFO
+dicom_anonymizer.egg-info/SOURCES.txt
+dicom_anonymizer.egg-info/dependency_links.txt
+dicom_anonymizer.egg-info/entry_points.txt
+dicom_anonymizer.egg-info/requires.txt
+dicom_anonymizer.egg-info/top_level.txt
+dicomanonymizer/__init__.py
+dicomanonymizer/anonymizer.py
+dicomanonymizer/dicomfields.py
+dicomanonymizer/format_tag.py
+dicomanonymizer/simpledicomanonymizer.py
