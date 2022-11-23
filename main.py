@@ -18,7 +18,7 @@ def main():
         os.makedirs(output_path)
     for root, dirs, files in os.walk(input_path):
         for name in files:
-            if name.endswith('.IMA'):
+            if name.endswith('.IMA') or name.endswith('.dcm'):
                 input_file = os.path.join(root, name)
                 input_sequence_folder = os.path.split(root)[-1]
                 output_dir = os.path.join(output_path, input_sequence_folder)
