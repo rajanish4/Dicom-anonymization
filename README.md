@@ -5,7 +5,7 @@ Python 3.7
 
 pydicom
 
-dicom-anonymizer (needs to be built, from: https://github.com/KitwareMedical/dicom-anonymizer)
+dicom-anonymizer (needs to be built, taken from: https://github.com/KitwareMedical/dicom-anonymizer)
 
 # Installation
 1. Create a virtual environment with python 3.7
