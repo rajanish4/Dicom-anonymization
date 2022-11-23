@@ -23,6 +23,6 @@ dicom-anonymizer (needs to be built, from: https://github.com/KitwareMedical/dic
 
 3. run **python main.py [input_folder_path] [output_folder_path]**
 
-    - The input_folder_path should contain all subfolders that hold all images for each sequence.
+    - The input_folder_path should contain all subfolders that hold all images for each sequence. The path name should ideally have no spaces in them.
 
     - The output_folder_path can be any folder where all anonymized files corresponding to single patient are stored.
