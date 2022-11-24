@@ -25,7 +25,7 @@ def main():
                 if not os.path.exists(output_dir):
                     os.makedirs(output_dir)
                 output_file = os.path.join(output_dir, name)
-                os.system(f'dicom-anonymizer {input_file} {output_file}')
+                os.system(f'dicom-anonymizer "{input_file}" "{output_file}"')
 
 
 if __name__ == '__main__':
